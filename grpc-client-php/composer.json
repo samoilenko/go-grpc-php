@@ -1,0 +1,16 @@
+{
+    "name": "php/grpc",
+    "description": "grpc example",
+    "type": "project",
+    "require": {
+        "grpc/grpc": "^1.57",
+        "google/protobuf": "^4.0@RC"
+    },
+    "license": "Free",
+    "autoload": {
+        "psr-4": {
+            "Grpc\\": "src/Grpc",
+            "GPBMetadata\\": "src/GPBMetadata"
+        }
+    }
+}
